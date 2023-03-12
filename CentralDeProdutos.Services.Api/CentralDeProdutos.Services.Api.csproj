@@ -13,4 +13,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CentralDeProdutos.Application\CentralDeProdutos.Application.csproj" />
+    <ProjectReference Include="..\CentralDeProdutos.Domain\CentralDeProdutos.Domain.csproj" />
+    <ProjectReference Include="..\CentralDeProdutos.Infra.Data\CentralDeProdutos.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>
